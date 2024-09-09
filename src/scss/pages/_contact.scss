@@ -1,0 +1,18 @@
+.rectangles {
+    margin:auto;
+    width: 100%;
+    overflow: auto;
+  padding: 0 20px;
+  
+  } 
+  
+   .box {
+    float: left;
+    width: 30%;
+    padding: 50px;
+    text-align:center;
+     border: 1px solid black; 
+    height: 10px;
+    background: $brandSkewColor;
+    
+  } 

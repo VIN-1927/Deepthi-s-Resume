@@ -1,0 +1,40 @@
+.cover-page {
+    height: 100vh;
+    width: 100vw;
+    // display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(46, 135, 58, 0.5);
+    overflow: hidden; /* Ensure no content overflows the viewable area */
+
+    &.full-screen {
+        height: 0;
+        width: 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        text-align: center; /* Center the text horizontally */
+    }
+
+    button {
+        position: absolute;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        background-color: #007bff;
+        color: black;
+        border: none;
+        border-radius: 50%;
+        top: 20px;
+        right: 20px;
+        z-index: 1;
+        cursor: pointer; /* Add a pointer cursor for better UX */
+
+        &:hover {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+        }
+    }
+}

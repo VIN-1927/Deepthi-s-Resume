@@ -1,0 +1,9 @@
+.Container{
+    margin-left: 200px;
+    transition: margin-left .2s ease-in;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 2px solid $blackColor; 
+    width:700px;
+    background-color: $primaryColor;
+  } 
