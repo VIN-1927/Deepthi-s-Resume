@@ -1,7 +1,7 @@
 import React, { Component } from "react";
  
 // import Button from "../components/layout/Button";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   state = {};
@@ -70,9 +70,9 @@ class About extends Component {
               </p>
             </div>
            
-              <a href="./next" className="btn btn-dark btn-block">
+              <Link to="/next" className="btn btn-dark btn-block">
                 Resume View
-              </a>
+              </Link>
           
             
           
